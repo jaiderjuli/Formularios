@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTM</title>
+</head>
+
+<body>
+            <form action="/" method="GET">
+                <div>
+                    <label for="nombre">nombre de usuario</label>
+                    <input type="text" name="nombre"id="nombre" required/>
+                <div>
+                <div>
+                    <label for="frasefavorita">comentarios</label>
+                    <input name="frasefavorita" required/>
+                </div>
+                <div>
+                    <label for="edad">edad</label>
+                    <input type="number" name="edad" id="edad" required/>
+                </div>
+                
+                <button type="submit">enviar</button>
+                <button type="reset">reset</button>
+            
+                </form>
+
+
+
+</html>
